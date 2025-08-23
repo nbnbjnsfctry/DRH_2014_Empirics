@@ -1,0 +1,18 @@
+﻿# --- Python ---
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- VS Code ---
+.vscode/
+
+# --- MATLAB ---
+*.asv
+*.mex*
+*.fig
+*.mat
+slprj/
+
+# --- Office 一時ファイル ---
+~$*

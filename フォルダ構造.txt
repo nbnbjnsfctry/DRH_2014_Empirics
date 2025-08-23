@@ -1,0 +1,30 @@
+AER20110850ReplicationFiles/
+├── Empirics/
+│   ├── davisdensity.do
+│   ├── davis.data
+│   ├── emp19502005.dta
+│   ├── ReadMeEmpirics.docx
+│   ├── ReadMeEmpirics.pdf
+│   ├── sdemp.do
+│   └── Table1-Figures2-7.xlsx
+├── Programs/
+│   ├── FigureFiles/
+│   ├── DeltaGraphFinal.m
+│   ├── DistRentsFinal.m
+│   ├── KappaGraphFinal.m
+│   ├── landrents.txt
+│   ├── mcar.mat
+│   ├── MonCarFinal.m
+│   ├── MuGraphFinal.m
+│   ├── ReadMeMatlabPrograms.docx
+│   ├── ReadMeMatlabPrograms.pdf
+│   ├── RentsPriceWelfareFinal.m
+│   ├── SDgraphsFinal.m
+│   ├── SDMasterFinal.m
+│   ├── SDsysFinal.m
+│   └── SpecGraphFinal.m
+├── ReadMe.docx
+└── ReadMe.pdf
+
+
+

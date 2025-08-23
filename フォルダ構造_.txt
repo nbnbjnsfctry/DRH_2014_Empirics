@@ -1,0 +1,29 @@
+AER20110850ReplicationFiles/
+├── Empirics/                  # 実証分析
+│   ├── davisdensity.do       # Stata スクリプト：Davis（クロムウェル郡）の人口密度分布を計算  
+│   ├── davis.data            # 生データ：Davis 郡の人口・雇用などの原データ  
+│   ├── emp19502005.dta       # Stata データセット：1950–2005 年の雇用データ集約版  
+│   ├── ReadMeEmpirics.docx   # ドキュメント：Empirics フォルダ内データとスクリプトの使い方解説  
+│   ├── ReadMeEmpirics.pdf    # 同上（PDF 版）  
+│   ├── sdemp.do              # Stata スクリプト：emp19502005.dta を加工して人口シェアを生成  
+│   └── Table1-Figures2-7.xlsx # Excel：論文の Table 1 および Figures 2–7 の元データ  
+
+├── Programs/  
+│   ├── FigureFiles/          # サブフォルダ：個別の図を生成する補助スクリプト群  
+│   ├── DeltaGraphFinal.m     # MATLAB：δ（技術拡散減衰）感度解析＆Figure 7 相当プロット  
+│   ├── DistRentsFinal.m      # MATLAB：土地賃料分布のカーネル密度プロット（Figure 11）  
+│   ├── KappaGraphFinal.m     # MATLAB：κ（運送コスト）感度解析グラフ  
+│   ├── landrents.txt         # テキスト：モデル推計による地点別土地賃料データ  
+│   ├── mcar.mat              # MATLAB データ：シミュレーション結果のマクロ変数一式  
+│   ├── MonCarFinal.m         # MATLAB：製造品 vs. サービス相対価格プロット  
+│   ├── MuGraphFinal.m        # MATLAB：μ（労働シェア）感度解析グラフ  
+│   ├── ReadMeMatlabPrograms.docx # ドキュメント：MATLAB スクリプトの実行手順／依存関係  
+│   ├── ReadMeMatlabPrograms.pdf  # 同上（PDF 版）  
+│   ├── RentsPriceWelfareFinal.m  # MATLAB：土地賃料・価格・家計効用時系列（Figure 10）  
+│   ├── SDgraphsFinal.m       # MATLAB：Spatial Development（空間分布）関連の総合グラフ生成  
+│   ├── SDMasterFinal.m       # MATLAB：シミュレーション全体を実行するマスター・スクリプト  
+│   ├── SDsysFinal.m          # MATLAB：空間均衡システム（式の解法）を実装するコア関数群  
+│   └── SpecGraphFinal.m      # MATLAB：部門別特化度（θ）の時空間プロット（Figure 12）  
+
+├── ReadMe.docx               # トップレベル・ドキュメント：全体構成と動作環境の説明  
+└── ReadMe.pdf                # 同上（PDF 版）  
